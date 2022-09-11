@@ -8,7 +8,8 @@
 
 /* betty style doc for function main goes there */
 /**
- * main - This function identifies numbers status */
+ * main(void) - Thi is the starting point
+ */
 int main(void)
 
 {
@@ -22,8 +23,10 @@ int main(void)
 				n = rand() - RAND_MAX / 2;
 /**
  * your code goes there
- *printf returns value if posit
- * */
+ * printf returns value if positive
+ * srand(time(0)) - calculates time
+ * rand() - generates random number
+ */
 	if (n > 0)
 	{
 		printf("%d is positive\n", n);
@@ -37,6 +40,7 @@ int main(void)
 		printf("%d is negative\n", n);
 	}
 	return (0);
+/* return(0) - Terminates the code */
 
 }
 /**
