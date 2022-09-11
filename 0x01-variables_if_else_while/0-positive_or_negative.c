@@ -8,7 +8,13 @@
 
 /* betty style doc for function main goes there */
 /**
- * main(void) - Thi is the starting point
+ * main() - Short description, single line
+ * is the starting point
+(* 
+ * Description: this function mainly generates a random
+ * number and determines whether the number
+ * is zero negative or positive)?
+ * Return: terminates the code once executed
  */
 int main(void)
 
@@ -21,7 +27,7 @@ int main(void)
 			srand(time(0));
 
 				n = rand() - RAND_MAX / 2;
-/**
+/*
  * your code goes there
  * printf returns value if positive
  * srand(time(0)) - calculates time
