@@ -35,7 +35,7 @@ int main(void)
 	return (0);
 
 }
-/** 
+/**
  * This function identifies whether the
  *  number input is positive negative or zero
  */
