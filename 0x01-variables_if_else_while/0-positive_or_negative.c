@@ -9,7 +9,7 @@
 /* betty style doc for function main goes there */
 
 /**
- * main() - Short description, single line
+ * main - Short description, single line
  * @void: returns no value
 (*
  * Description: this function mainly generates a random
