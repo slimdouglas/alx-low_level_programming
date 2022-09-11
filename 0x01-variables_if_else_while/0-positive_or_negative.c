@@ -7,13 +7,15 @@
 
 
 /* betty style doc for function main goes there */
+
 /**
  * main() - Short description, single line
- * is the starting point
-(* 
+ * @void: returns no value
+(*
  * Description: this function mainly generates a random
  * number and determines whether the number
  * is zero negative or positive)?
+(* section header: Section description)*
  * Return: terminates the code once executed
  */
 int main(void)
@@ -49,7 +51,3 @@ int main(void)
 /* return(0) - Terminates the code */
 
 }
-/**
- * This function identifies whether the
- *  number input is positive negative or zero
- */
