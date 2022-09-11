@@ -7,7 +7,8 @@
 
 
 /* betty style doc for function main goes there */
-
+/**
+ * main - This function identifies numbers status */
 int main(void)
 
 {
@@ -19,7 +20,10 @@ int main(void)
 			srand(time(0));
 
 				n = rand() - RAND_MAX / 2;
-/* your code goes there */
+/**
+ * your code goes there
+ *printf returns value if posit
+ * */
 	if (n > 0)
 	{
 		printf("%d is positive\n", n);
