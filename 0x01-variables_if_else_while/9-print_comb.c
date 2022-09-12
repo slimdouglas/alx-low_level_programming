@@ -17,7 +17,10 @@ int main(void)
 		putchar((a) + '0');
 		putchar(',');
 		putchar(' ');
+		if (a == 9)
+		{
+			putchar((a) + '0' + ' ');
+		}
 	}
-	putchar((9) + ' ' + '0');
 	return (0);
 }
