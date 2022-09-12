@@ -14,10 +14,13 @@ int main(void)
 {
 	char ny = 'a';
 
-	while (ny <= 'z' && ny != 'q' && ny != 'e')
+	while (ny <= 'z')
 	{
+		while (ny != 'e' && ny != 'q')
+		{
 		putchar(ny);
 		ny++;
+		}
 	}
 	putchar('\n');
 	return (0);
