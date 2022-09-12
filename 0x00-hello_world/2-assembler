@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S ${CFILE} -o main.s
+gcc -E -S $CFILE %2-main.c% -o main.s
