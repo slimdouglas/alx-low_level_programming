@@ -10,15 +10,14 @@
 (* section header: Section description)*
  * Return: Terminates the code
  */
-int main()
+int main(void)
 {
 	char ny = 'a';
 
 	while (ny <= 'z')
 	{
 		putchar(ny);
-		putchar('\n');
 		ny++;
 	}
-	return 0;
+	return(0);
 }
