@@ -19,8 +19,8 @@ int main(void)
 		while (ny != 'e' && ny != 'q')
 		{
 		putchar(ny);
-		ny++;
 		}
+		ny++;
 	}
 	putchar('\n');
 	return (0);
