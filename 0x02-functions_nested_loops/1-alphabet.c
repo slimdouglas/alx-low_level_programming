@@ -3,7 +3,7 @@
 /**
  * print_alphabet - prints a-z
  * @void:
-(* 
+(*
  * Description: a-z)?
 (* section header:)*
  * Return: zero
