@@ -17,8 +17,7 @@ int main(void)
 	for (ny = 0; ny < 8; ++ny)
 	{
 		putchar(str[ny]);
-
-		putchar('\n');
 	}
+		putchar('\n');
 	return (0);
 }
