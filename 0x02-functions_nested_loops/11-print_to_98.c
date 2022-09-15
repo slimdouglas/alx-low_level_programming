@@ -2,7 +2,7 @@
 
 /**
  * print_to_98 - print n to 98 counts
-(*
+(*@n : input for system
  * Description:none)?
 (* section header:)*
  * Return: values upto 98
