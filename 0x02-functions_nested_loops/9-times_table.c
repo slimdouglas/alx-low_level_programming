@@ -1,12 +1,13 @@
 #include "main.h"
-
 /**
- * times_table - generates times table of 9
-(*
- * Description: Generates time table)?
-(* section header:)*
- * Return: times table of nine
+ * times_table - prints the 9 times table
+ *
+ * Sample Table
+ * 0, 0, 0, 0
+ * 0, 1, 2, 3
+ *
  */
+
 void times_table(void)
 {
 	int num, mult, prod;
@@ -28,9 +29,7 @@ void times_table(void)
 			else
 			{
 				_putchar((prod / 10) + 48);
-				/*get digit one*/
 				_putchar((prod % 10) + 48);
-				/*get digit two*/
 			}
 		}
 		_putchar('\n');
