@@ -2,7 +2,7 @@
 
 
 /**
- * print_times_table: Generate times table
+ * print_times_table - Generate times table
  * @n: input
 (*
  * Description: Longer description of the function)?
