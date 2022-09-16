@@ -3,9 +3,8 @@
 /**
  * _isdigit - check if input is digit
  * @c: input of character
- * Return: zero or one
+ * Return: zero or on
  */
-
 int _isdigit(int c)
 {
 	if (c >= 0 && c <= 9)
