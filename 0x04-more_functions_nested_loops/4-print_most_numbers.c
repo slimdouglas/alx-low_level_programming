@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * function_name - zero to nine
+ * print_most_numbers - zero to nine
  * @void: returns no value
 (* a blank line
  * Description: Longer description of the function)?
@@ -13,7 +13,7 @@ void print_most_numbers(void)
 {
 	int i;
 
-	for (i = 0; i <= 9 ; i++)
+	for (i = 0; i <= 9; i++)
 	{
 		if ( i == 2 || i == 4)
 		{
