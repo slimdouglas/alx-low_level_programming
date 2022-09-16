@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * mul - multiplies two numbers
- * @int a: vslue b
- * @int b: value a
+ * mul - multiplies two digits
+ * @a: input a
+ * @b: input b
+ * @c: value after multiplication
+ * Return: multiplication
  */
 
 int mul(int a, int b)
