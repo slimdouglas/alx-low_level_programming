@@ -2,7 +2,7 @@
 
 /**
  * print_line - Short description, single line
- * @int n: Description of parameter x
+ * @n: Description of parameter x
 (*
  * Description: Longer description of the function)?
 (* section header: Section description)*
@@ -20,7 +20,7 @@ void print_line(int n)
 	{
 		for (c = 0; c <= n; c++)
 		{
-			_putchar('_');
+			_putchar(_);
 		}
 	}
 	_putchar('\n');
