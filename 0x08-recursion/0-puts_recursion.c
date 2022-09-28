@@ -3,11 +3,11 @@
 
 /**
  * _puts_recursion - prints string
- * s: String to e printed
- * Return: prints string
+ * @s: String to e printed
  */
 
 void _puts_recursion(char *s)
 {
-	write(1, &s, 1);
+	_putchar(s);
+	_putchar('\n');
 }
