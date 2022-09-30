@@ -12,7 +12,9 @@ int main(int argc, char* argv[])
 
 	if (argc == 3)
 	{
-		i = atoi(argv[1]) * atoi(argv[2]);
+		char *p;
+
+		i = strtol(argv[1], &p, 10) * strtol(argv[2], &p, 10);
 		printf("%d", i);
 	}
 	else
