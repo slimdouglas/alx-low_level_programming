@@ -6,8 +6,10 @@
  * @i: input num
  * Return: 1 if prime 0 if not
  */
-int is_prime_number(int n, int i)
+int is_prime_number(int n)
 {
+	int i;
+
 	if (n == i || n <= 0)
 	{
 		return (0);
