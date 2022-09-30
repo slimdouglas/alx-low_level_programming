@@ -6,9 +6,13 @@
  * @argc: count of arguments
  * Return: zero
  */
-int _1main(int argc)
+int main(int argc, char *argv[])
 {
+	int i = 0;
 
+	if (argv[i] => 0)
+	{
 	printf("%d\n", argc);
+	}
 	return (0);
 }
