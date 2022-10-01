@@ -7,9 +7,10 @@
  * @argv: pointer to array of strings
  * Return: zero if success
  */
-int main(int argc, char *argv[])
+int main(int argc, char* argv[])
 {
 	int i = 0;
+
 	if (argc > 0)
 	{
 		printf("%s\n", argv[i]);
