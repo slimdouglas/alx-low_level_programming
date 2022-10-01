@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 		q = atoi(argv[2]);
 		i = p * q;
 		/*i = strtol(argv[1], &p, 10) * strtol(argv[2], &p, 10);*/
-		printf("%d", i);
+		printf("%d\n", i);
 	}
 	else
 	{
