@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 {
 	int i = 0;
 
-	printf("%d\n", argc);
+	printf("%d\n", argc - 1);
 	if (argc > 100)
 	{
 		printf("%s\n", argv[i]);
