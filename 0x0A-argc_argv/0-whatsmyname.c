@@ -7,7 +7,8 @@
  * @argv: pointer to array of strings
  * Return: zero if success
  */
-int main(int argc, char* argv[])
+
+int main(int argc, char *argv[])
 {
 	int i = 0;
 
