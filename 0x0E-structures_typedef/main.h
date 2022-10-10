@@ -1,5 +1,5 @@
 #ifndef MAIN_H
 #define MAIN_H
-struct dog();
+struct dog;
 
 #endif /* MAIN_H */

@@ -1,13 +1,14 @@
 #include "main.h"
 #include<stdio.h>
 /**
- * dog - strcut dog
+ * struct dog - strcut dog
  * @name: dogs name
  * @age: dogs age
  * @owner: dogs owner
  *
  * Description: struct for dog
  */
+
 struct dog
 {
 	char *name;
